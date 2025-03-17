@@ -77,17 +77,21 @@ As part of this initiative, a challenge was proposed to master's students: evalu
 We conducted a literature review assessing, based on the current state of research, the environmental effects of AI. To do so, we applied the Life Cycle Assessment (LCA) methodology, which aims to cover all stages of a product or process’s life cycle. The goal is to quantify and compare the environmental impacts of a system throughout its entire existence, from raw material extraction to its end-of-life treatment (landfilling, recycling…), including use, maintenance, and transportation phases.
 
 Review Structure:
+
 ####I. Direct Negative Environmental Impacts 
+
 A Production 
 B Transport 
 C Operations 
 D End of life 
 
 ####II. Indirect Dual Environmental Impacts 
+
 A Positive
 B Negative 
 
 ####III. Avenues for sufficient/Frugal AI 
+
 A Transparency 
 B Regulation 
 C Behavioural insights
