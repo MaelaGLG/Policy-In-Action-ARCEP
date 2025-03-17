@@ -11,25 +11,11 @@ Nous avons réalisé une revue de la littérature qui analyse, à partir de l'é
 
 Plan de la revue :
 
-**I. Direct Negative Environmental Impacts**
-A Production 
-B Transport 
-C Operations 
-D End of life 
+**I. Direct Negative Environmental Impacts** : Production / Transport / Operations / End of life 
 
-**II. Indirect Dual Environmental Impacts**
+**II. Indirect Dual Environmental Impacts** : Positive / Negative 
 
-A Positive
-
-B Negative 
-
-**III. Avenues for sufficient/Frugal AI** 
-
-A Transparency 
-
-B Regulation 
-
-C Behavioural insights
+**III. Avenues for sufficient/Frugal AI** : Transparency / Regulation / Behavioural insights
 
 Toutes les sources utilisées sont disponibles dans le dossier associé.
 
@@ -83,29 +69,11 @@ We conducted a literature review assessing, based on the current state of resear
 
 Review Structure:
 
-**I. Direct Negative Environmental Impacts**
+**I. Direct Negative Environmental Impacts** : Production / Transport / Operations / End of life 
 
-A Production 
+**II. Indirect Dual Environmental Impacts** : Positive / Negative 
 
-B Transport 
-
-C Operations 
-
-D End of life 
-
-**II. Indirect Dual Environmental Impacts**
-
-A Positive
-
-B Negative 
-
-**III. Avenues for sufficient/Frugal AI** 
-
-A Transparency 
-
-B Regulation 
-
-C Behavioural insights
+**III. Avenues for sufficient/Frugal AI** : Transparency / Regulation / Behavioural insights
 
 All sources used are available in the associated folder.
 
