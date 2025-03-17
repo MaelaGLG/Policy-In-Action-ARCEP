@@ -10,17 +10,17 @@ Nous avons réalisé une revue de la littérature qui analyse, à partir de l'é
 
 
 Plan de la revue :
-####I. Direct Negative Environmental Impacts 
+**I. Direct Negative Environmental Impacts**
 A Production 
 B Transport 
 C Operations 
 D End of life 
 
-####II. Indirect Dual Environmental Impacts 
+**II. Indirect Dual Environmental Impacts**
 A Positive
 B Negative 
 
-####III. Avenues for sufficient/Frugal AI 
+**III. Avenues for sufficient/Frugal AI** 
 A Transparency 
 B Regulation 
 C Behavioural insights
@@ -30,15 +30,15 @@ Toutes les sources utilisées sont disponibles dans le dossier associé.
 
 ## Les algorithms
 
-### Google Scholar Algorithme
+### Google Scholar Algorithm
 
 Nous avons développé un algorithme en Python qui s'exécute régulièrement afin de recenser les articles les plus récents et influents sur le sujet. Cet outil de web scraping sélectionne les publications les plus pertinentes sur Google Scholar à partir de leur pertinence pour le sujet, leur date et de leur influence (nombre de citations par les pairs).
 
-### Google Algorithme
+### Google Algorithm
 
 xxxx
 
-### **Contributions**
+## **Contributions**
 
 Si vous souhaitez suggérer des améliorations, n’hésitez pas à nous contacter aux adresses suivantes :
 
