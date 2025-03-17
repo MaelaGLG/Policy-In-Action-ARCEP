@@ -48,7 +48,7 @@ Nous tenons à remercier l'équipe de l'ARCEP pour avoir proposé ce défi et po
 ├── LICENSE <- Licence du dépôt (par défaut, MIT)  
 ├── Algorithms  
 │   ├── Google Scholar Algorithm <- Algorithme de recherche d’articles académiques  
-│   └── Google Algorithm <- Algorithme Google (à compléter)  
+│   └── Google Algorithm <- Algorithme Google xxx
 ├── Literature review  
 │   ├── Sources Articles <- Articles académiques et rapports institutionnels utilisés  
 │   └── Final Report <- Rapport final et tableau récapitulatif des impacts environnementaux  
@@ -85,8 +85,7 @@ We developed a Python algorithm that runs regularly to fetch the most recent and
 
 ### Google Algorithm
 
-(To be completed…)
-
+xxx
 
 
 ## **Contributions**
