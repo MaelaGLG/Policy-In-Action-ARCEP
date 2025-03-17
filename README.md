@@ -12,13 +12,9 @@ Nous avons réalisé une revue de la littérature qui analyse, à partir de l'é
 Plan de la revue :
 
 **I. Direct Negative Environmental Impacts**
-
 A Production 
-
 B Transport 
-
 C Operations 
-
 D End of life 
 
 **II. Indirect Dual Environmental Impacts**
