@@ -10,23 +10,32 @@ Nous avons réalisé une revue de la littérature qui analyse, à partir de l'é
 
 
 Plan de la revue :
+
 **I. Direct Negative Environmental Impacts**
+
 A Production 
+
 B Transport 
+
 C Operations 
+
 D End of life 
 
 **II. Indirect Dual Environmental Impacts**
+
 A Positive
+
 B Negative 
 
 **III. Avenues for sufficient/Frugal AI** 
+
 A Transparency 
+
 B Regulation 
+
 C Behavioural insights
 
 Toutes les sources utilisées sont disponibles dans le dossier associé.
-
 
 ## Les algorithms
 
@@ -46,11 +55,11 @@ Si vous souhaitez suggérer des améliorations, n’hésitez pas à nous contact
 - Maela Guillaume-Le Gall - maela.guillaume-le-gall@polytechnique.edu
 - Rafaël Mourouvin - rafael.mourouvin@polytechnique.edu
 
-### **Remerciements**
+## **Remerciements**
 
 Nous tenons à remercier l'équipe de l'ARCEP pour avoir proposé ce défi et pour les feedbacks apportés au fil du projet. Par ailleurs, ce projet a été réalisé dans le cadre du MSc&T in Data and Economics for Public Policy et nous tenons à remercier nos directeurs de master, Pierre Boyer et Franck Malherbet, pour avoir organisé ce challenge avec l'ARCEP et pour leur suivi du projet.
 
-### **Structure des fichiers**
+## **Structure des fichiers**
 
 ```
 ├── README.md  
@@ -78,30 +87,34 @@ We conducted a literature review assessing, based on the current state of resear
 
 Review Structure:
 
-####I. Direct Negative Environmental Impacts 
+**I. Direct Negative Environmental Impacts**
 
 A Production 
+
 B Transport 
+
 C Operations 
+
 D End of life 
 
-####II. Indirect Dual Environmental Impacts 
+**II. Indirect Dual Environmental Impacts**
 
 A Positive
+
 B Negative 
 
-####III. Avenues for sufficient/Frugal AI 
+**III. Avenues for sufficient/Frugal AI** 
 
 A Transparency 
+
 B Regulation 
+
 C Behavioural insights
 
 All sources used are available in the associated folder.
 
 
-Toutes les sources utilisées sont disponibles dans le dossier associé.
-
-## Les algorithms
+## The algorithms
 
 ### Google Scholar Algorithm
 
@@ -114,7 +127,7 @@ We developed a Python algorithm that runs regularly to fetch the most recent and
 
 
 
-### **Contributions**
+## **Contributions**
 
 If you have suggestions for improvements, feel free to contact us at the following addresses:
 
@@ -123,11 +136,11 @@ If you have suggestions for improvements, feel free to contact us at the followi
 - Maela Guillaume-Le Gall - maela.guillaume-le-gall@polytechnique.edu
 - Rafaël Mourouvin - rafael.mourouvin@polytechnique.edu
 
-### **Acknowledgments**
+## **Acknowledgments**
 
 We would like to thank the ARCEP team for proposing this challenge and for the feedback they provided throughout the project. In addition, this project was carried out as part of the MSc&T in Data and Economics for Public Policy and we would like to thank our Master's supervisors, Pierre Boyer and Franck Malherbet, for organising this challenge with ARCEP and for monitoring the project.
 
-### **File Structure**
+## **File Structure**
 
 ```
 ├── README.md  
