@@ -8,6 +8,7 @@ Dans ce cadre, un défi a été proposé aux étudiant·es du master : évaluer 
 
 Nous avons réalisé une revue de la littérature qui analyse, à partir de l'état de l'art actuel, les effets environnementaux de l'IA. Pour ce faire, nous avons appliqué la méthodologie Life Cycle Assessment (LCA), qui couvre l’ensemble des étapes du cycle de vie d’un produit ou d’un processus. Son objectif est de quantifier et comparer les impacts environnementaux d’un système tout au long de son existence, depuis l’extraction des matières premières jusqu'à son traitement en fin de vie, en passant par ses phases d’utilisation, d’entretien et de transport.
 
+Toutes les sources utilisées sont disponibles dans le dossier associé.
 
 Plan de la revue :
 
@@ -17,7 +18,6 @@ Plan de la revue :
 
 **III. Avenues for sufficient/Frugal AI** : Transparency / Regulation / Behavioural insights
 
-Toutes les sources utilisées sont disponibles dans le dossier associé.
 
 ## Les algorithms
 
@@ -66,6 +66,7 @@ As part of this initiative, a challenge was proposed to master's students: evalu
 ## Literature Review
 
 We conducted a literature review assessing, based on the current state of research, the environmental effects of AI. To do so, we applied the Life Cycle Assessment (LCA) methodology, which aims to cover all stages of a product or process’s life cycle. The goal is to quantify and compare the environmental impacts of a system throughout its entire existence, from raw material extraction to its end-of-life treatment (landfilling, recycling…), including use, maintenance, and transportation phases.
+All sources used are available in the associated folder.
 
 Review Structure:
 
@@ -74,9 +75,6 @@ Review Structure:
 **II. Indirect Dual Environmental Impacts** : Positive / Negative 
 
 **III. Avenues for sufficient/Frugal AI** : Transparency / Regulation / Behavioural insights
-
-All sources used are available in the associated folder.
-
 
 ## The algorithms
 
