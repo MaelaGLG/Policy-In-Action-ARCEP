@@ -1,4 +1,4 @@
-# Policy In Action DEPP-ARCEP : L'impact environmental de l'IA
+# Policy In Action DEPP-ARCEP : L'Impact Environmental de l'IA
 
 Ce projet est le fruit d'une collaboration entre le MSc&T "Data and Economics for Public Policy" (École Polytechnique, ENSAE & Télécom Paris) et l'ARCEP (Autorité de régulation des communications électroniques, des postes et de la distribution de la presse).
 
