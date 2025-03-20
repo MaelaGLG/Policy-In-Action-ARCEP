@@ -4,6 +4,17 @@ Ce projet est le fruit d'une collaboration entre le MSc&T "Data and Economics fo
 
 Dans ce cadre, un défi a été proposé aux étudiant·es du master : évaluer l'impact environnemental de l'IA et développer des outils pour actualiser ces connaissances en intégrant les nouvelles publications sur le sujet.
 
+## Les algorithms
+
+### Google Scholar Algorithm
+
+Nous avons développé un algorithme en Python qui effectue une recherche automatisée sur Google Scholar en utilisant des paramètres facilement modifiables. L'algorithme calcule la pertinence des articles en identifiant les mots communs entre le sujet d'intérêt (la requête) et le titre des articles scientifiques. Les articles sont ensuite triés, et le score de pertinence est combiné avec l'année de publication et le nombre de citations pour déterminer l'ordre des résultats. Pour chaque article sélectionné, l'algorithme webscrape et nettoie le texte complet de l'abstract via Selenium. Finalement, les résultats sont exportés sous forme de tableau récapitulatif dans un fichier Excel téléchargeable à la fin du document. 
+
+### Google Algorithm
+
+xxxx
+
+
 ## La revue de littérature 
 
 Nous avons réalisé une revue de la littérature qui analyse, à partir de l'état de l'art actuel, les effets environnementaux de l'IA. Pour ce faire, nous avons appliqué la méthodologie Life Cycle Assessment (LCA), qui couvre l’ensemble des étapes du cycle de vie d’un produit ou d’un processus. Son objectif est de quantifier et comparer les impacts environnementaux d’un système tout au long de son existence, depuis l’extraction des matières premières jusqu'à son traitement en fin de vie, en passant par ses phases d’utilisation, d’entretien et de transport.
@@ -18,16 +29,6 @@ Plan de la revue :
 
 **III. Avenues for sufficient/Frugal AI** : Transparency / Regulation / Behavioural insights
 
-
-## Les algorithms
-
-### Google Scholar Algorithm
-
-Nous avons développé un algorithme en Python qui s'exécute régulièrement afin de recenser les articles les plus récents et influents sur le sujet. Cet outil de web scraping sélectionne les publications les plus pertinentes sur Google Scholar à partir de leur pertinence pour le sujet, leur date et de leur influence (nombre de citations par les pairs).
-
-### Google Algorithm
-
-xxxx
 
 ## **Contributions**
 
@@ -63,6 +64,17 @@ This project is the result of a collaboration between the MSc&T "Data and Econom
 
 As part of this initiative, a challenge was proposed to master's students: evaluate the environmental impact of AI and develop tools to continuously update this knowledge based on new publications
 
+## The algorithms
+
+### Google Scholar Algorithm
+
+We have developed a Python algorithm that performs an automated search on Google Scholar using easily modifiable parameters. The algorithm calculates the relevance of the articles by identifying the common words between the topic of interest (the query) and the titles of the scientific articles. The articles are then sorted, and the relevance score is combined with the publication year and the number of citations to determine the order of the results. For each selected article, the algorithm webscrapes and cleans the full abstract text using Selenium. Finally, the results are exported as a summary table in a downloadable Excel file at the end of the document.
+
+
+### Google Algorithm
+
+xxx
+
 ## Literature Review
 
 We conducted a literature review assessing, based on the current state of research, the environmental effects of AI. To do so, we applied the Life Cycle Assessment (LCA) methodology, which aims to cover all stages of a product or process’s life cycle. The goal is to quantify and compare the environmental impacts of a system throughout its entire existence, from raw material extraction to its end-of-life treatment (landfilling, recycling…), including use, maintenance, and transportation phases.
@@ -75,17 +87,6 @@ Review Structure:
 **II. Indirect Dual Environmental Impacts** : Positive / Negative 
 
 **III. Avenues for sufficient/Frugal AI** : Transparency / Regulation / Behavioural insights
-
-## The algorithms
-
-### Google Scholar Algorithm
-
-We developed a Python algorithm that runs regularly to fetch the most recent and influential papers on this topic. This web scraping tool selects the most relevant publications on Google Scholar.
-
-
-### Google Algorithm
-
-xxx
 
 
 ## **Contributions**
