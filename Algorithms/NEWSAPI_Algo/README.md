@@ -8,7 +8,7 @@ L'algorithme extrait les métadonnées des articles (Title, Source, Raw Date, Pa
 
 Les articles dont le contenu est trop court ou inaccessibles sont automatiquement filtrés grâce à la condition `df_articles[~df_articles["Full Article Text"].str.startswith("Error fetching article")]` afin de garantir la qualité des résultats.  
 
-Les résultats finaux sont sauvegardés sous forme de fichier **CSV** (`ai_environmental_impact_articles_FULLTEXT.csv`) contenant les informations essentielles ainsi que le texte complet des articles valides. L'affichage des premiers résultats est également proposé en sortie du script via `print(df_articles[['Parsed Date', 'Title', 'Source', 'Link', 'Full Article Text']].head(20))`.  
+Les résultats finaux sont sauvegardés sous forme de fichier **CSV** (`ai_environmental_impact_articles_FULLTEXT.csv`) contenant les informations essentielles ainsi que le texte complet des articles valides. L'affichage des premiers résultats est également proposé en sortie du script via `print(df_articles[['Parsed Date', 'Language', 'Title', 'Source', 'Link', 'Full Article Text']].head(20))`.  
 
 **Paramètres de configuration dans le code**  
 
@@ -27,7 +27,7 @@ The algorithm extracts metadata from the articles (Title, Source, Raw Date, Pars
 
 Articles with content that is too short or inaccessible are automatically filtered using the condition df_articles[~df_articles["Full Article Text"].str.startswith("Error fetching article")] to ensure the quality of the results.
 
-The final results are saved as a **CSV** file (ai_environmental_impact_articles_FULLTEXT.csv), containing essential information along with the full text of valid articles. The first results are also displayed as script output using print(df_articles[['Parsed Date', 'Title', 'Source', 'Link', 'Full Article Text']].head(20)).
+The final results are saved as a **CSV** file (ai_environmental_impact_articles_FULLTEXT.csv), containing essential information along with the full text of valid articles. The first results are also displayed as script output using print(df_articles[['Parsed Date', 'Language', 'Title', 'Source', 'Link', 'Full Article Text']].head(20)).
 
 **Configuration parameters in the code**
 
