@@ -1,5 +1,7 @@
 # Collection of Articles using NEWSAPI
 
+---
+
 Ce script effectue une recherche automatisée d'articles d'actualité sur l'impact environnemental de l'intelligence artificielle en utilisant l'API de NewsAPI. Il récupère des articles en anglais et en français selon les mots-clés spécifiés.  
 
 L'algorithme extrait les métadonnées des articles (Title, Source, Raw Date, Parsed Date, Link) et les classe par ordre chronologique grâce à la variable `sortBy="publishedAt"`. Ensuite, il tente de récupérer le texte intégral de chaque article via la fonction `get_full_article_text(url)`, qui utilise la bibliothèque **newspaper3k**.  
@@ -16,3 +18,5 @@ Les résultats finaux sont sauvegardés sous forme de fichier **CSV** (`ai_envir
 - **Critère de tri des résultats** : `sortBy="publishedAt"`, pour classer les articles du plus récent au plus ancien.  
 - **Filtrage des articles invalides** : `df_articles[~df_articles["Full Article Text"].str.startswith("Error fetching article")]`.  
 - **Exportation des résultats** : `df_articles.to_csv("ai_environmental_impact_articles_FULLTEXT.csv", index=False, encoding='utf-8-sig')`.  
+
+---
