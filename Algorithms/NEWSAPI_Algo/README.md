@@ -12,12 +12,12 @@ Les résultats finaux sont sauvegardés sous forme de fichier **CSV** (`ai_envir
 
 **Paramètres de configuration dans le code**  
 
-- **Mots-clés de recherche** : `"AI environmental impact"` (`query="AI environmental impact"`) pour l'anglais et `"impact environnemental de l'IA"` (`query="impact environnemental de l'IA"`) pour le français.  
-- **Langues analysées** : `language="en"` (anglais) et `language="fr"` (français).  
-- **Nombre d'articles récupérés par requête** : `pageSize=60`.  
+- **Mots-clés de recherche** :`QUERY_EN = "AI environmental impact"` en anglais et `QUERY_FR = "impact environnemental de l'IA"` en français.  
+- **Langues analysées** : `LANGUAGES = {"en": QUERY_EN, "fr": QUERY_FR}` (Anglais et Français).  
+- **Nombre d'articles récupérés par requête** : `PAGE_SIZE=60`.  
 - **Critère de tri des résultats** : `sortBy="publishedAt"`, pour classer les articles du plus récent au plus ancien.  
 - **Filtrage des articles invalides** : `df_articles[~df_articles["Full Article Text"].str.startswith("Error fetching article")]`.  
-- **Exportation des résultats** : `df_articles.to_csv("ai_environmental_impact_articles_FULLTEXT.csv", index=False, encoding='utf-8-sig')`.  
+- **Exportation des résultats** : `df_articles.to_csv(OUTPUT_FILENAME, index=False, encoding='utf-8-sig')`.  
 
 ---
 
@@ -31,10 +31,10 @@ The final results are saved as a **CSV** file (`ai_environmental_impact_articles
 
 **Configuration parameters in the code**
 
-- **Search keywords** : `"AI environmental impact"` (`query="AI environmental impact"`) for English and `"impact environnemental de l'IA"`  (`query="impact environnemental de l'IA"`) for French.
-- **Analyzed languages** : `language="en"` (English) and `language="fr"` (French).
-- **Number of articles retrieved per query** : `pageSize=60`.
+- **Search keywords** : `QUERY_EN = "AI environmental impact"` in english and `QUERY_FR = "impact environnemental de l'IA"` in french.
+- **Analyzed languages** : `LANGUAGES = {"en": QUERY_EN, "fr": QUERY_FR}` (English and French).
+- **Number of articles retrieved per query** : `PAGE_SIZE=60`.
 - **Sorting criterion** : `sortBy="publishedAt"`, to order articles from most recent to oldest.
 -  **Filtering invalid articles** : `df_articles[~df_articles["Full Article Text"].str.startswith("Error fetching article")]`.
-- **Exporting results**  : `df_articles.to_csv("ai_environmental_impact_articles_FULLTEXT.csv", index=False, encoding='utf-8-sig')`.
+- **Exporting results**  : `df_articles.to_csv(OUTPUT_FILENAME, index=False, encoding='utf-8-sig')`.
 
