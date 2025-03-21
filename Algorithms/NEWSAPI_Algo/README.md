@@ -1,5 +1,7 @@
 # Collection of Articles using NEWSAPI
 
+### Authors: Julian Rojas & Rafaël Mourouvin
+
 ---
 
 Ce script effectue une recherche automatisée d'articles d'actualité sur l'impact environnemental de l'intelligence artificielle en utilisant l'API de NewsAPI. Il récupère des articles en anglais et en français selon les mots-clés spécifiés.  
