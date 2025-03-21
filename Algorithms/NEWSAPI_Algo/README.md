@@ -23,18 +23,18 @@ Les résultats finaux sont sauvegardés sous forme de fichier **CSV** (`ai_envir
 
 This script performs an automated search for news articles on the environmental impact of artificial intelligence using the NewsAPI. It retrieves articles in English and French based on the specified keywords.
 
-The algorithm extracts metadata from the articles (Title, Source, Raw Date, Parsed Date, Link) and sorts them chronologically using the variable sortBy="publishedAt". Then, it attempts to retrieve the full text of each article through the function get_full_article_text(url), which uses the **newspaper3k** library.
+The algorithm extracts metadata from the articles (Title, Source, Raw Date, Parsed Date, Link) and sorts them chronologically using the variable `sortBy="publishedAt"`. Then, it attempts to retrieve the full text of each article through the function `get_full_article_text(url)`, which uses the **newspaper3k** library.
 
-Articles with content that is too short or inaccessible are automatically filtered using the condition df_articles[~df_articles["Full Article Text"].str.startswith("Error fetching article")] to ensure the quality of the results.
+Articles with content that is too short or inaccessible are automatically filtered using the condition `df_articles[~df_articles["Full Article Text"].str.startswith("Error fetching article")]` to ensure the quality of the results.
 
-The final results are saved as a **CSV** file (ai_environmental_impact_articles_FULLTEXT.csv), containing essential information along with the full text of valid articles. The first results are also displayed as script output using print(df_articles[['Parsed Date', 'Language', 'Title', 'Source', 'Link', 'Full Article Text']].head(20)).
+The final results are saved as a **CSV** file (`ai_environmental_impact_articles_FULLTEXT.csv`), containing essential information along with the full text of valid articles. The first results are also displayed as script output using `print(df_articles[['Parsed Date', 'Language', 'Title', 'Source', 'Link', 'Full Article Text']].head(20))`.
 
 **Configuration parameters in the code**
 
-- **Search keywords** : "AI environmental impact" (query="AI environmental impact") for English and "impact environnemental de l'IA" (query="impact environnemental de l'IA") for French.
-- **Analyzed languages** : language="en" (English) and language="fr" (French).
-- **Number of articles retrieved per query** : pageSize=20.
-- **Sorting criterion** : sortBy="publishedAt", to order articles from most recent to oldest.
--  **Filtering invalid articles** : df_articles[~df_articles["Full Article Text"].str.startswith("Error fetching article")].
-- **Exporting results**  : df_articles.to_csv("ai_environmental_impact_articles_FULLTEXT.csv", index=False, encoding='utf-8-sig').
+- **Search keywords** : `"AI environmental impact"` (`query="AI environmental impact"`) for English and `"impact environnemental de l'IA"`  (`query="impact environnemental de l'IA"`) for French.
+- **Analyzed languages** : `language="en"` (English) and `language="fr"` (French).
+- **Number of articles retrieved per query** : `pageSize=20`.
+- **Sorting criterion** : `sortBy="publishedAt"`, to order articles from most recent to oldest.
+-  **Filtering invalid articles** : `df_articles[~df_articles["Full Article Text"].str.startswith("Error fetching article")]`.
+- **Exporting results**  : `df_articles.to_csv("ai_environmental_impact_articles_FULLTEXT.csv", index=False, encoding='utf-8-sig')`.
 
