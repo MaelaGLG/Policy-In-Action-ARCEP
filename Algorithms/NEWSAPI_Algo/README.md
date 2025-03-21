@@ -1,3 +1,5 @@
+Collection of Articles using NEWSAPI
+
 Ce script effectue une recherche automatisée d'articles d'actualité sur l'impact environnemental de l'intelligence artificielle en utilisant l'API de NewsAPI. Il récupère des articles en anglais et en français selon les mots-clés spécifiés.  
 
 L'algorithme extrait les métadonnées des articles (Title, Source, Raw Date, Parsed Date, Link) et les classe par ordre chronologique grâce à la variable `sortBy="publishedAt"`. Ensuite, il tente de récupérer le texte intégral de chaque article via la fonction `get_full_article_text(url)`, qui utilise la bibliothèque **newspaper3k**.  
