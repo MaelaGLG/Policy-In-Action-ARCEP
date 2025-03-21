@@ -8,13 +8,13 @@ L'algorithme extrait les métadonnées des articles (Title, Source, Raw Date, Pa
 
 Les articles dont le contenu est trop court ou inaccessibles sont automatiquement filtrés grâce à la condition `df_articles[~df_articles["Full Article Text"].str.startswith("Error fetching article")]` afin de garantir la qualité des résultats.  
 
-Les résultats finaux sont sauvegardés sous forme de fichier **CSV** (`ai_environmental_impact_articles_FULLTEXT.csv`) contenant les informations essentielles ainsi que le texte complet des articles valides. L'affichage des premiers résultats est également proposé en sortie du script via `print(df_articles[['Parsed Date', 'Language', 'Title', 'Source', 'Link', 'Full Article Text']].head(20))`.  
+Les résultats finaux sont sauvegardés sous forme de fichier **CSV** (`ai_environmental_impact_articles_FULLTEXT.csv`) contenant les informations essentielles ainsi que le texte complet des articles valides. L'affichage des premiers résultats est également proposé en sortie du script via `print(df_articles[['Parsed Date', 'Language', 'Title', 'Source', 'Link', 'Full Article Text']].head(40))`.  
 
 **Paramètres de configuration dans le code**  
 
 - **Mots-clés de recherche** : `"AI environmental impact"` (`query="AI environmental impact"`) pour l'anglais et `"impact environnemental de l'IA"` (`query="impact environnemental de l'IA"`) pour le français.  
 - **Langues analysées** : `language="en"` (anglais) et `language="fr"` (français).  
-- **Nombre d'articles récupérés par requête** : `pageSize=20`.  
+- **Nombre d'articles récupérés par requête** : `pageSize=60`.  
 - **Critère de tri des résultats** : `sortBy="publishedAt"`, pour classer les articles du plus récent au plus ancien.  
 - **Filtrage des articles invalides** : `df_articles[~df_articles["Full Article Text"].str.startswith("Error fetching article")]`.  
 - **Exportation des résultats** : `df_articles.to_csv("ai_environmental_impact_articles_FULLTEXT.csv", index=False, encoding='utf-8-sig')`.  
@@ -27,13 +27,13 @@ The algorithm extracts metadata from the articles (Title, Source, Raw Date, Pars
 
 Articles with content that is too short or inaccessible are automatically filtered using the condition `df_articles[~df_articles["Full Article Text"].str.startswith("Error fetching article")]` to ensure the quality of the results.
 
-The final results are saved as a **CSV** file (`ai_environmental_impact_articles_FULLTEXT.csv`), containing essential information along with the full text of valid articles. The first results are also displayed as script output using `print(df_articles[['Parsed Date', 'Language', 'Title', 'Source', 'Link', 'Full Article Text']].head(20))`.
+The final results are saved as a **CSV** file (`ai_environmental_impact_articles_FULLTEXT.csv`), containing essential information along with the full text of valid articles. The first results are also displayed as script output using `print(df_articles[['Parsed Date', 'Language', 'Title', 'Source', 'Link', 'Full Article Text']].head(40))`.
 
 **Configuration parameters in the code**
 
 - **Search keywords** : `"AI environmental impact"` (`query="AI environmental impact"`) for English and `"impact environnemental de l'IA"`  (`query="impact environnemental de l'IA"`) for French.
 - **Analyzed languages** : `language="en"` (English) and `language="fr"` (French).
-- **Number of articles retrieved per query** : `pageSize=20`.
+- **Number of articles retrieved per query** : `pageSize=60`.
 - **Sorting criterion** : `sortBy="publishedAt"`, to order articles from most recent to oldest.
 -  **Filtering invalid articles** : `df_articles[~df_articles["Full Article Text"].str.startswith("Error fetching article")]`.
 - **Exporting results**  : `df_articles.to_csv("ai_environmental_impact_articles_FULLTEXT.csv", index=False, encoding='utf-8-sig')`.
