@@ -4,7 +4,7 @@
 
 Ce script effectue une recherche automatisée d'articles d'actualité sur l'impact environnemental de l'intelligence artificielle en utilisant l'API de NewsAPI. Il récupère des articles en anglais et en français selon les mots-clés spécifiés.  
 
-L'algorithme extrait les métadonnées des articles (Title, Source, Raw Date, Parsed Date, Link) et les classe par ordre chronologique grâce à la variable `sortBy="publishedAt"`. Ensuite, il tente de récupérer le texte intégral de chaque article via la fonction `get_full_article_text(url)`, qui utilise la bibliothèque **newspaper3k**.  
+L'algorithme extrait les métadonnées des articles (Title, Source, Raw Date, Parsed Date, Link) et les classe par ordre chronologique grâce à la variable `SORT_BY="publishedAt"`. Ensuite, il tente de récupérer le texte intégral de chaque article via la fonction `get_full_article_text(url)`, qui utilise la bibliothèque **newspaper3k**.  
 
 Les articles dont le contenu est trop court ou inaccessibles sont automatiquement filtrés grâce à la condition `df_articles[~df_articles["Full Article Text"].str.startswith("Error fetching article")]` afin de garantir la qualité des résultats.  
 
@@ -23,7 +23,7 @@ Les résultats finaux sont sauvegardés sous forme de fichier **CSV** (`ai_envir
 
 This script performs an automated search for news articles on the environmental impact of artificial intelligence using the NewsAPI. It retrieves articles in English and French based on the specified keywords.
 
-The algorithm extracts metadata from the articles (Title, Source, Raw Date, Parsed Date, Link) and sorts them chronologically using the variable `sortBy="publishedAt"`. Then, it attempts to retrieve the full text of each article through the function `get_full_article_text(url)`, which uses the **newspaper3k** library.
+The algorithm extracts metadata from the articles (Title, Source, Raw Date, Parsed Date, Link) and sorts them chronologically using the variable `SORT_BY="publishedAt"`. Then, it attempts to retrieve the full text of each article through the function `get_full_article_text(url)`, which uses the **newspaper3k** library.
 
 Articles with content that is too short or inaccessible are automatically filtered using the condition `df_articles[~df_articles["Full Article Text"].str.startswith("Error fetching article")]` to ensure the quality of the results.
 
