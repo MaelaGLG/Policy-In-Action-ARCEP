@@ -110,7 +110,7 @@ We would like to thank the ARCEP team for proposing this challenge and for the f
 ├── LICENSE <- Repository license (default: MIT)  
 ├── Algorithms  
 │   ├── Google Scholar Algorithm <- Academic article retrieval algorithm  
-│   └── Google Algorithm <- Google Algorithm   
+│   └── NewsAPI Algorithm <- NewsAPI Algorithm   
 ├── Literature review  
 │   ├── Sources Articles <- Academic papers and institutional reports used  
 │   └── Final Report <- Final report and summary table of environmental impacts  
