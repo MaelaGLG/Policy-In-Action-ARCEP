@@ -6,7 +6,7 @@ Dans ce cadre, un défi a été proposé aux étudiant·es du master : évaluer 
 
 ## Les algorithms
 
-### Google Scholar Algorithm
+### Algorithme Google Scholar
 
 Nous avons développé un premier algorithme en Python qui effectue une recherche automatisée sur Google Scholar en utilisant des paramètres facilement modifiables. L'algorithme calcule la pertinence des articles en identifiant les mots communs entre le sujet d'intérêt (la requête) et le titre des articles scientifiques. Les articles sont ensuite triés, et le score de pertinence est combiné avec l'année de publication et le nombre de citations pour déterminer l'ordre des résultats. Pour chaque article sélectionné, l'algorithme webscrape et nettoie le texte complet de l'abstract via Selenium. Finalement, les résultats sont exportés sous forme de tableau récapitulatif dans un fichier Excel téléchargeable à la fin du document. 
 
