@@ -21,35 +21,33 @@ Nous avons réalisé une revue de la littérature qui analyse, à partir de l'é
 
 Toutes les sources utilisées sont disponibles dans le dossier associé.
 
-Plan de la revue :
+1. **Introduction**
 
-**1. Introduction**
-  
-**2. Impacts environnementaux négatifs direct de l’IA**
-2.1. Production 
-2.2. Transport 
-2.3. Phase d’utilisation 
-2.4. Fin de vie des équipements
+2. **Impacts environnementaux négatifs directs de l’IA**
+   - 2.1. Production
+   - 2.2. Transport
+   - 2.3. Phase d’utilisation
+   - 2.4. Fin de vie des équipements
 
-**3. Impacts environnementaux négatifs indirects de l’IA**
-3.1. Effets rebond matériels
-3.2. Effets rebond économiques
-3.3. Effets rebond sociétaux
+3. **Impacts environnementaux négatifs indirects de l’IA**
+   - 3.1. Effets rebond matériels
+   - 3.2. Effets rebond économiques
+   - 3.3. Effets rebond sociétaux
 
-**4. Contributions environnementales positives de l’IA**
-4.1. Efficacité énergétique dans les bâtiments et les processus industriels
-4.2. Intégration des énergies renouvelables
-4.3. Agriculture durable et de précision
-4.4. Gestion intelligente des déchets
-4.5. Surveillance environnementale et conservation de la biodiversité
+4. **Contributions environnementales positives de l’IA**
+   - 4.1. Efficacité énergétique dans les bâtiments et les processus industriels
+   - 4.2. Intégration des énergies renouvelables
+   - 4.3. Agriculture durable et de précision
+   - 4.4. Gestion intelligente des déchets
+   - 4.5. Surveillance environnementale et conservation de la biodiversité
 
-**5. Considérations futures et stratégies d'atténuation**
-5.1. Cadres réglementaires
-5.2. Mécanismes de transparence
-5.3. Apports des sciences comportementales
-5.4. Tendances durables émergentes
+5. **Considérations futures et stratégies d'atténuation**
+   - 5.1. Cadres réglementaires
+   - 5.2. Mécanismes de transparence
+   - 5.3. Apports des sciences comportementales
+   - 5.4. Tendances durables émergentes
 
-**6. Conclusion**
+6. **Conclusion**
 
 
 ## **Contributions**
