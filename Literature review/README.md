@@ -1,5 +1,5 @@
 
-# La revue de littérature 
+# Revue de littérature 
 
 Nous avons réalisé une revue de la littérature qui analyse, à partir de l'état de l'art actuel, les effets environnementaux de l'IA. Pour ce faire, nous avons appliqué la méthodologie Life Cycle Assessment (LCA), qui couvre l’ensemble des étapes du cycle de vie d’un produit ou d’un processus. Son objectif est de quantifier et comparer les impacts environnementaux d’un système tout au long de son existence, depuis l’extraction des matières premières jusqu'à son traitement en fin de vie, en passant par ses phases d’utilisation, d’entretien et de transport.
 
