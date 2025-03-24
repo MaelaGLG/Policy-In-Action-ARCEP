@@ -101,36 +101,33 @@ The second Python algorithm we developed performs an automated search for news a
 We conducted a literature review assessing, based on the current state of research, the environmental effects of AI. To do so, we applied the Life Cycle Assessment (LCA) methodology, which aims to cover all stages of a product or process’s life cycle. The goal is to quantify and compare the environmental impacts of a system throughout its entire existence, from raw material extraction to its end-of-life treatment (landfilling, recycling…), including use, maintenance, and transportation phases.
 All sources used are available in the associated folder.
 
-Review Structure:
+1. **Introduction**
 
-**1. Introduction**
+2. **Direct Negative Environmental Impacts of AI**
+   - 2.1. Production
+   - 2.2. Transportation
+   - 2.3. Operation Phase
+   - 2.4. End-of-Life of Equipment
 
-**2. Direct Negative Environmental Impacts of AI**
-2.1. Production
-2.2. Transportation
-2.3. Operation Phase
-2.4. End-of-Life of Equipment
+3. **Indirect Negative Environmental Impacts of AI**
+   - 3.1. Material Rebound Effects
+   - 3.2. Economic Rebound Effects
+   - 3.3. Societal Rebound Effects
 
-**3. Indirect Negative Environmental Impacts of AI**
-3.1. Material Rebound Effects
-3.2. Economic Rebound Effects
-3.3. Societal Rebound Effects
+4. **Positive Environmental Contributions of AI**
+   - 4.1. Energy Efficiency in Buildings and Industrial Processes
+   - 4.2. Renewable Energy Integration
+   - 4.3. Sustainable and Precision Agriculture
+   - 4.4. Intelligent Waste Management
+   - 4.5. Environmental Monitoring and Biodiversity Conservation
 
-**4. Positive Environmental Contributions of AI**
-4.1. Energy Efficiency in Buildings and Industrial Processes
-4.2. Renewable Energy Integration
-4.3. Sustainable and Precision Agriculture
-4.4. Intelligent Waste Management
-4.5. Environmental Monitoring and Biodiversity Conservation
+5. **Future Considerations and Mitigation Strategies**
+   - 5.1. Regulatory Frameworks
+   - 5.2. Transparency Mechanisms
+   - 5.3. Insights from Behavioral Sciences
+   - 5.4. Emerging Sustainable Trends
 
-**5. Future Considerations and Mitigation Strategies**
-5.1. Regulatory Frameworks
-5.2. Transparency Mechanisms
-5.3. Insights from Behavioral Sciences
-5.4. Emerging sustainable trends
-
-**6. Conclusion**
-
+6. **Conclusion**
 
 
 ## **Contributions**
