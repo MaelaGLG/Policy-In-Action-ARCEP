@@ -26,8 +26,8 @@ Plan de la revue :
 **1. Introduction**
   
 **2. Impacts environnementaux négatifs direct de l’IA**
-2.1. Production
-2.2. Transport
+2.1. Production 
+2.2. Transport 
 2.3. Phase d’utilisation 
 2.4. Fin de vie des équipements
 
