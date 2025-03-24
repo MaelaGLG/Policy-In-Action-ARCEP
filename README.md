@@ -23,11 +23,33 @@ Toutes les sources utilisées sont disponibles dans le dossier associé.
 
 Plan de la revue :
 
-**I. Direct Negative Environmental Impacts** : Production / Transport / Operations / End of life 
+**1. Introduction**
+  
+**2. Impacts environnementaux négatifs direct de l’IA**
+2.1. Production
+2.2. Transport
+2.3. Phase d’utilisation 
+2.4. Fin de vie des équipements
 
-**II. Indirect Dual Environmental Impacts** : Positive / Negative 
+**3. Impacts environnementaux négatifs indirects de l’IA**
+3.1. Effets rebond matériels
+3.2. Effets rebond économiques
+3.3. Effets rebond sociétaux
 
-**III. Avenues for sufficient/Frugal AI** : Transparency / Regulation / Behavioural insights
+**4. Contributions environnementales positives de l’IA**
+4.1. Efficacité énergétique dans les bâtiments et les processus industriels
+4.2. Intégration des énergies renouvelables
+4.3. Agriculture durable et de précision
+4.4. Gestion intelligente des déchets
+4.5. Surveillance environnementale et conservation de la biodiversité
+
+**5. Considérations futures et stratégies d'atténuation**
+5.1. Cadres réglementaires
+5.2. Mécanismes de transparence
+5.3. Apports des sciences comportementales
+5.4. Tendances durables émergentes
+
+**6. Conclusion**
 
 
 ## **Contributions**
@@ -83,11 +105,34 @@ All sources used are available in the associated folder.
 
 Review Structure:
 
-**I. Direct Negative Environmental Impacts** : Production / Transport / Operations / End of life 
+**1. Introduction**
 
-**II. Indirect Dual Environmental Impacts** : Positive / Negative 
+**2. Direct Negative Environmental Impacts of AI**
+2.1. Production
+2.2. Transportation
+2.3. Operation Phase
+2.4. End-of-Life of Equipment
 
-**III. Avenues for sufficient/Frugal AI** : Transparency / Regulation / Behavioural insights
+**3. Indirect Negative Environmental Impacts of AI**
+3.1. Material Rebound Effects
+3.2. Economic Rebound Effects
+3.3. Societal Rebound Effects
+
+**4. Positive Environmental Contributions of AI**
+4.1. Energy Efficiency in Buildings and Industrial Processes
+4.2. Renewable Energy Integration
+4.3. Sustainable and Precision Agriculture
+4.4. Intelligent Waste Management
+4.5. Environmental Monitoring and Biodiversity Conservation
+
+**5. Future Considerations and Mitigation Strategies**
+5.1. Regulatory Frameworks
+5.2. Transparency Mechanisms
+5.3. Insights from Behavioral Sciences
+5.4. Emerging sustainable trends
+
+**6. Conclusion**
+
 
 
 ## **Contributions**
