@@ -66,3 +66,5 @@ All sources used are available in the associated folder.
    - 5.2. Transparency Mechanisms
    - 5.3. Insights from Behavioral Sciences
    - 5.4. Emerging Sustainable Trends
+
+6. **Conclusion**
